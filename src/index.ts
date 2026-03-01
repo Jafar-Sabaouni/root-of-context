@@ -6,10 +6,9 @@ import {
   ErrorCode,
   McpError,
 } from "@modelcontextprotocol/sdk/types.js";
-import { translateQuery, ExecutableAction } from "./parser/queryTranslator.js";
+import { translateQuery } from "./parser/queryTranslator.js";
 import { Indexer } from "./engine/indexer.js";
-import fs from "fs/promises";
-import { join } from "path";
+
 
 const server = new Server(
   {

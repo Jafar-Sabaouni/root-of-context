@@ -5,7 +5,6 @@ const Parser = webTreeSitter.Parser || webTreeSitter;
 const Language = webTreeSitter.Language;
 import { dirname, join } from "path";
 import { fileURLToPath } from "url";
-import fs from "fs/promises";
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const wasmDir = join(__dirname, "../../src/wasm");
