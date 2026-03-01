@@ -1,2 +1,7 @@
 .DS_Store
-.f/*
+.f
+node_modules
+dist
+bin
+.root-index
+
